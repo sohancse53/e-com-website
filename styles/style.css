@@ -18,7 +18,7 @@
 /* body */
 body{
     max-width: 100%;
-    margin: 0 auto;
+
     
 }
 
@@ -351,7 +351,7 @@ height: 600px;
 
 footer{
     background-color: #070211dc;
-    width: 100%;
+    width: 1320px;
     height: 610px;
     text-align: center;
     margin: 0 auto;
@@ -364,6 +364,8 @@ footer{
     justify-content: center;
     align-items: center;
     gap: 50px;
+  
+   
 }
 footer hr{
     width: 80%;
