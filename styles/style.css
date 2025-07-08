@@ -155,3 +155,52 @@ align-items: start;
    border: none;
    margin-top:40px ;
 }
+
+/* offer styles */
+.offers{
+     width: 1320px;
+    height: 486px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.offers .offer{
+    width: 392px;
+}
+
+.offers .offer h4{
+    font-size: 24px;
+    font-weight: 400;
+    color: red;
+}
+.offers .offer h2{
+    font-size: 40px;
+    font-weight: 600;
+}
+.offers .offer p{
+    font-size: 20px;
+    color: #070211;
+    font-weight: 200;
+}
+
+.offer .circle{
+    width: 350x;
+    height: 350px;
+    border: 10px solid red;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.offer .circle img{
+    width: 85%;
+}
+
+.offer  h3{
+    color: red;
+    font-size: 48px;
+    font-weight: bold;
+}
+.offer .new-year{
+    margin-top: 40px;
+}
