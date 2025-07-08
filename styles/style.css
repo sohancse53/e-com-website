@@ -241,3 +241,105 @@ text-align: center;
     font-weight: 200;
     color: #070211;
 }
+
+
+
+/* our portfolio section */
+
+.portfolio{
+    width: 1320px;
+    height: 1163px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+margin: 120px auto;
+}
+.portfolio-text{
+    width: 50%;
+}
+.portfolio-text h4{
+    font-size: 24px;
+    font-weight: 200;
+    color: red;
+}
+.portfolio-text h2{
+    font-size: 48px;
+    font-weight: 600;
+    color: #070211;
+
+}
+.portfolio-text p{
+    color: #070211;
+    font-weight: 200;
+    font-size: 20px;
+}
+.portfolio .product-images{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+   
+}
+
+.portfolio .product-images img{
+  width: 424px;
+  height: 450px;
+}
+
+
+/* subscribe section styles */
+.subscribe{
+width: 1320px;
+height: 600px;
+ background-color:#ff00000a;
+ border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+  gap: 50px;
+    align-items: center;
+    margin-top: 120px;
+    text-align: center;
+    justify-content: center;
+
+}
+.subscribe img{
+    display: block;
+    width: 10%;
+}
+.subscribe h2{
+    color: #070211;
+    font-size: 48px;
+    font-weight: bold;
+}
+.subscribe p{
+    color: #070211;
+    font-size: 20px;
+    font-weight: 200;
+   
+}
+
+.subscribe .btn{
+    width: 630px;
+  
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.subscribe .btn input{
+        width: 500px;
+        background-color: white;
+          padding: 14px 20px;
+          border: none;
+          border-radius:50px 0   0 50px;
+          outline: none;
+}
+.subscribe .btn button{
+     width: 130px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 0 50px 50px 0;
+    font-size: 20px;
+    font-weight: 200;
+    color: white;
+    background-color: #FF0000;
+}
