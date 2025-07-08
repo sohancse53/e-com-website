@@ -204,3 +204,39 @@ align-items: start;
 .offer .new-year{
     margin-top: 40px;
 }
+
+
+/* holiday section */
+.holiday{
+ width: 1320px;
+  height: 985px;
+  margin: 120px auto;
+
+  background-image: url('../images/Group 75.png'),url('../images/Group 44.png'),url('../images/Rectangle 2.png');
+  background-repeat: no-repeat;
+  background-position: bottom left, center right, bottom right;
+text-align: center;
+
+}
+
+.holiday .holiday-title{
+    width: 1060px;
+    margin: 0 auto;
+
+}
+
+.holiday .holiday-title h4{
+    color: #070211;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.holiday .holiday-title h2{
+    font-size: 72px;
+    font-stretch: bold;
+}
+.holiday .holiday-title p{
+    font-size: 20px;
+    font-weight: 200;
+    color: #070211;
+}
