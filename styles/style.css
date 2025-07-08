@@ -1,0 +1,157 @@
+/* custom font */
+.merriweather-normal {
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+/* body */
+body{
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+/* header styles */
+header{
+    background-image: url('../images/Banner\ Image.png');
+      background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1320px;
+    height: 600px;
+   
+}
+.header-part{
+     width: 1320px;
+      height: 600px;
+  background-color: rgba(0, 0, 0, 0.404);
+color: #FFFFFF;
+ display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    border-radius: 16px;
+
+}
+.header-part h4{
+    font-size: 32px;
+    font-weight: 200;
+   
+}
+.header-part h2{
+    font-size: 72px;
+    font-weight: bold;
+}
+
+
+
+/* main section starts here */
+
+
+/* banner styles */
+.banner{
+    width: 804px;
+ margin: 0 auto;
+  text-align: center;
+  margin-top: 120px;
+
+}
+.banner h2{
+    color: red;
+    font-size: 88px;
+    font-weight: bold;
+    margin-bottom: 48px;
+}
+.banner h3{
+    color:black;
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 48px;
+}
+.banner h4{
+    color: red;
+font-size: 24px;
+  font-weight: 400;
+}
+
+/* party section */
+
+.party{
+    width: 1320px;
+    height: 600px;  
+    background-image: url('../images/Vectorrr.png');
+    color: white;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+    align-items: center;
+    margin: 120px auto;
+}
+.black-div{
+    width: 1320px;
+    height: 600px;
+    background-color: rgba(0, 0, 0, 0.568);
+    opacity: 0.9;
+border-radius: 18px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: start;
+}
+
+.black-div h2{
+    font-size: 64px;
+    margin-left: 128px;
+}
+.black-div p{
+     margin-left: 128px;
+     font-size: 18px;
+     font-weight: 200;
+}
+.black-div h4{
+     margin-left: 158px;
+     font-size: 20px;
+     font-weight: bold;
+}
+
+
+/* time section */
+.time{
+    width: 1320px;
+    height: 486px;
+    background:linear-gradient(#ff000031,#ffffff) ;
+    border-radius: 8px;
+    margin: 120px auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400px;
+
+}
+.time .sub-time span{
+    color: red;
+}
+.time .sub-time button{
+   background-color: #FF0000;
+   color: white;
+   font-size: 20px;
+   font-weight: bold;
+   padding: 10px 15px;
+   border-radius:8px;
+   border: none;
+   margin-top:40px ;
+}
